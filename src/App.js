@@ -16,7 +16,7 @@ function App() {
     <Navbar />
       <Routes>
 
-       <Route exact path="/" element={<BookList />} />
+       <Route exact path="/Book-App/" element={<BookList />} />
        <Route path="/Books/:id" element={<BookDetails />} />
        <Route path="/Book/Favorite" element={<Favorites />} />
        <Route path="/Book/Cart" element={<Cart />} />
