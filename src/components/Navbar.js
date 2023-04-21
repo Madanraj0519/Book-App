@@ -15,7 +15,7 @@ const Navbar = () => {
             <Link to={"/"}><FontAwesomeIcon icon={faBookJournalWhills} style={{color: "#53035e",fontSize:"2.8rem"}} /></Link>
 
             <div className="text">
-                <h1>Book App</h1>
+                <Link to={"/Book-App"}><h1>Book App</h1></Link>
             </div>
 
             <div className="heart-icon">
