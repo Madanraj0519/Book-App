@@ -12,11 +12,11 @@ import Cart from './components/Cart';
 function App() {
   return (
   <div className="App">
-    
+
     <Navbar />
       <Routes>
 
-       <Route exact path="/Book-App/" element={<BookList />} />
+       <Route exact path="/Book-App" element={<BookList />} />
        <Route path="/Books/:id" element={<BookDetails />} />
        <Route path="/Book/Favorite" element={<Favorites />} />
        <Route path="/Book/Cart" element={<Cart />} />
