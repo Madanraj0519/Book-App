@@ -12,7 +12,7 @@ const Navbar = () => {
 
     return (
         <div className="navbar">
-            <Link to={"/"}><FontAwesomeIcon icon={faBookJournalWhills} style={{color: "#53035e",fontSize:"2.8rem"}} /></Link>
+            <Link><FontAwesomeIcon icon={faBookJournalWhills} style={{color: "#53035e",fontSize:"2.8rem"}} /></Link>
 
             <div className="text">
                 <Link to={"/Book-App"}><h1>Book App</h1></Link>
